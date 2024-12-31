@@ -67,3 +67,65 @@ h1 {
     font-size: 1.5rem;
     margin-top: 20px;
 }
+/* Estilos gerais para desktop */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  h1, h2 {
+    font-size: 2rem;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Responsividade para dispositivos com largura de tela até 768px (tablets e smartphones) */
+  @media (max-width: 768px) {
+    h1, h2 {
+      font-size: 1.5rem;
+    }
+  
+    .container {
+      width: 90%;
+    }
+  
+    header, footer {
+      padding: 0.5rem;
+    }
+  
+    .main-content {
+      padding: 1rem;
+    }
+  }
+  
+  /* Responsividade para dispositivos com largura de tela até 480px (smartphones) */
+  @media (max-width: 480px) {
+    h1, h2 {
+      font-size: 1.2rem;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 0 10px;
+    }
+  
+    header, footer {
+      padding: 0.5rem;
+    }
+  
+    .main-content {
+      padding: 0.5rem;
+    }
+  }
+  
