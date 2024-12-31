@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#countdown {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 2rem;
+}
+
+#timer p {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#timer span {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+#new-year-message {
+    margin-top: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+#new-year-message h2 {
+    font-size: 4rem;
+    color: #ffdb58;
+}
+
+#new-year-message p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
